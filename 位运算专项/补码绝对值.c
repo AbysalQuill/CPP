@@ -1,7 +1,7 @@
 #include <stdio.h>
 long long abs(int n) {
-    int sign=n>>63;
-    return ~n+1;//负数绝对值=补码取反+1
+    int sign=n>>31;
+    return (n^sign)-sign;
 }
 
 int main() {
