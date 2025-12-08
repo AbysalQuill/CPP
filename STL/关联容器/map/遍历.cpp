@@ -7,7 +7,7 @@ int main(){
     //迭代器
     for (auto it=mp.begin();it!=mp.end();it++)
         cout<<it->first<<" "<<it->second<<endl;
-    //const+迭代器
+    //const绑定迭代器
     for (const auto &i:mp) cout<<i.first<<" "<<i.second<<endl;
     
 }
