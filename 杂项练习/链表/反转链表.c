@@ -12,4 +12,5 @@ void reverse(node **head){
         current->next=prev;
         prev=current;
         current=current->next;
+    }
 }
