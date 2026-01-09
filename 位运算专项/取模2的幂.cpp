@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <cstdio>
 int modePow2(int a, int n){
     return a&(1<<n)-1;
 }

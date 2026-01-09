@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdbool.h>
+# include <iostream>
 bool isOdd(int n) {
     return n&1;//奇数位为1,偶数位为0
 }
