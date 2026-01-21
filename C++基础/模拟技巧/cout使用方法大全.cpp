@@ -1,6 +1,7 @@
 #include <iostream>
 #include <iomanip>
 #include <string>
+#include <bitset>
 using namespace std;
 
 int main() {
@@ -36,6 +37,7 @@ int main() {
     cout << dec << num << " (十进制)" << endl;
     cout << hex << num << " (十六进制)" << endl;
     cout << oct << num << " (八进制)" << endl;
+    cout << bitset<8>(num) << " (二进制)" << endl;
 
     // 布尔值
     cout << "\n布尔值：" << endl;

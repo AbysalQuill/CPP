@@ -22,6 +22,13 @@
         "semaphore": "cpp",
         "vector": "cpp",
         "format": "cpp",
-        "numeric": "cpp"
+        "numeric": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "generator": "cpp",
+        "text_encoding": "cpp"
     }
 }
