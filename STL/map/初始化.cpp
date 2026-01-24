@@ -11,6 +11,7 @@ int main(){
     for (auto i:decmap) cout<<i.first<<" "<<i.second<<endl;
     //拷贝
     map<int,string>mp1(mp);
+    for (auto i:mp1) cout<<i.first<<" "<<i.second<<endl;
 
 
 }

@@ -10,5 +10,4 @@ int main(){
     mp.emplace(7,"seven");
     for (auto i:mp) cout<<i.first<<" "<<i.second<<endl;
     cout<<endl;
-
 }

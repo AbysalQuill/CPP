@@ -22,6 +22,4 @@ int main(){
     //获取第一个大于等于1的元素的键值和第一个大于1的元素的键值,和上面两行等价
     cout<<mp.equal_range(1).first->first<<" "<<mp.equal_range(1).second->first<<endl;
     cout<<mp.begin()->first<<" "<<mp.rbegin()->first<<endl;//获取第一个和最后一个元素的键值
-
-
 }

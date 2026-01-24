@@ -27,7 +27,6 @@ int main(){
         cout<<pq.top().name<<" "<<pq.top().age<<endl;
         pq.pop();
     }
-    
 }
 
 

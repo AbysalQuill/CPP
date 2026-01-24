@@ -5,7 +5,7 @@ bool cmp(string a, string b)
     return a.size()==b.size()?a<b:a.size()<b.size();
 }
 string subtract(string a,string b){
-    if (cmp(a,b)) {
+    if (cmp(a,b)){
         swap(a,b);
         cout<<"-";
     }

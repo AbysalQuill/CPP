@@ -29,6 +29,8 @@
         "unordered_map": "cpp",
         "unordered_set": "cpp",
         "generator": "cpp",
-        "text_encoding": "cpp"
+        "text_encoding": "cpp",
+        "tuple": "cpp",
+        "algorithm": "cpp"
     }
 }
