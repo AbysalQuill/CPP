@@ -2,6 +2,7 @@
 using namespace std; 
 int n,a;
 long long sum;
+
 int read(){
     int x=0,f=1;
     char s;
