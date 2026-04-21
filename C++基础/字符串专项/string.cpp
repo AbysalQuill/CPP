@@ -92,8 +92,8 @@ int main() {
     s8.replace(0,5,"world");//替换从0开始5个字符
     cout<<s8<<endl;
 
-    cout<<"字符串插入"<<endl;
-    s8.insert(0,5,"hello");
+    cout<<"字符串追加"<<endl;
+    s8 = "hello"+s8;
     cout<<s8<<endl;
 
     cout<<"字符串删除"<<endl;

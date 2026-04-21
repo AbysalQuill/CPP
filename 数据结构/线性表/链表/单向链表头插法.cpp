@@ -27,6 +27,7 @@ LinkList ListInsert(LinkList L,ElemType e)//头插法
 
 int main()
 {
+
     LinkList L;
     InitList(L);
     ListInsert(L,1);

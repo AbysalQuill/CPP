@@ -1,0 +1,12 @@
+graph TD
+    subgraph maze [s10]
+    direction TB
+    classDef cell fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,width:70px,height:70px,text-align:center,font-size:20px,font-weight:bold,color:#800080
+    classDef wall fill:#424242,stroke:#212121,stroke-width:2px,width:70px,height:70px,text-align:center,font-size:20px,font-weight:bold,color:#9370db
+    classDef start fill:#c8e6c9,stroke:#388e3c,stroke-width:3px,width:70px,height:70px,text-align:center,font-size:24px,font-weight:bold,color:#800080
+    classDef end_ fill:#ffcdd2,stroke:#d32f2f,stroke-width:3px,width:70px,height:70px,text-align:center,font-size:24px,font-weight:bold,color:#800080
+
+    A0["S"]:::start --- A1["."]:::cell --- A2["."]:::cell
+    B0["#"]:::wall --- B1["#"]:::wall --- B2["."]:::cell
+    C0["."]:::cell --- C1["."]:::cell --- C2["E"]:::end_
+end

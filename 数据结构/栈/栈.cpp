@@ -61,7 +61,7 @@ void PrintStack(SqStack S){
 int main(){
     SqStack S;
     InitStack(S);
-    Push(S,1);
+    Push(S,1); 
     Push(S,2);
     Push(S,3);
     ElemType e;
